@@ -3,7 +3,7 @@
 %define Theme_name	Wasp
 %define version		2.6.1
 %define name		%{base_name}-%{theme_name}
-%define release		%mkrel 3
+%define release		%mkrel 4
 
 Name:		%{name}
 Version:	%{version}
@@ -13,7 +13,8 @@ License:	GPL
 Group:		Graphical desktop/KDE
 Source:		%{Theme_name}.SVG.Icons-v%{version}.tar.bz2
 URL:		http://kde-look.org/content/show.php?content=9763
-Requires:	kdebase kdegraphics-ksvg
+Requires:	kdebase-progs
+Requires:        kdegraphics-ksvg
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 
