@@ -16,7 +16,6 @@ URL:		http://kde-look.org/content/show.php?content=9763
 Requires:	kdebase-progs
 Requires:        kdegraphics-ksvg
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 Wasp Icons for KDE (SVG & PNG)
