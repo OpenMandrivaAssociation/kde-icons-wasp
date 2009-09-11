@@ -3,7 +3,7 @@
 %define Theme_name	Wasp
 %define version		2.6.1
 %define name		%{base_name}-%{theme_name}
-%define release		%mkrel 7
+%define release		%mkrel 8
 
 Name:		%{name}
 Version:	%{version}
