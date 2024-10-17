@@ -12,7 +12,7 @@ Summary:	Wasp icon for KDE Desktop
 License:	GPL
 Group:		Graphical desktop/KDE
 Source:		%{Theme_name}.SVG.Icons-v%{version}.tar.bz2
-URL:		http://kde-look.org/content/show.php?content=9763
+URL:		https://kde-look.org/content/show.php?content=9763
 Requires:	kdebase3-progs
 Requires:   kdegraphics3-ksvg
 BuildArch:	noarch
