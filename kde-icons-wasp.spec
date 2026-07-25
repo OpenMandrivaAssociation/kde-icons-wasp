@@ -3,7 +3,7 @@
 %define Theme_name	Wasp
 %define version		2.6.1
 %define name		%{base_name}-%{theme_name}
-%define release		%mkrel 9
+%define release 10
 
 Name:		%{name}
 Version:	%{version}
@@ -94,7 +94,7 @@ rm -rf $RPM_BUILD_ROOT
 
 
 
-* Fri Jul 14 2006 Nicolas Lécureuil <neoclust@mandriva.org> 2.6.1-3mdv2007.0
+* Fri Jul 14 2006 Nicolas Lï¿½cureuil <neoclust@mandriva.org> 2.6.1-3mdv2007.0
 - Rebuild
 - Use mkrel
 
